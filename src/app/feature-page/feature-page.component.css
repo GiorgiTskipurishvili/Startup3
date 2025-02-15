@@ -1,0 +1,118 @@
+.feature-container{
+    width: 100vw;
+    height: 736px;
+    position: relative;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.backgroung{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #2F1893;
+}
+
+
+.feature-container__inner{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.rigt{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex: 1;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px   ;
+}
+
+.title h1{
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.title h5{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 600px;
+    max-height: 96px;
+}
+
+
+.features{
+    display: flex;
+    flex-direction: row;
+    gap: 29px   ;
+}
+
+.features-info{
+    width: 271px;
+    height: 187px;
+
+}
+
+
+
+.feature-one__title h3{
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-top: 29px;
+}
+
+.feature-one__description h4{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 270px;
+    max-height: 78px;
+    text-align: left;
+}
+
+
+.MacBook{
+    padding: 100px 0;
+}
+.Screen{
+    padding-bottom: 147px;
+    margin-left: -482px;
+
+}
+.left{
+    position: relative;
+    width: 482px;
+}
+
